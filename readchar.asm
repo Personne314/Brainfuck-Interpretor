@@ -2,7 +2,6 @@ section .data
 	buffer db 12 dup(0)
 	newline db 10
 	minus db '-'
-	
 
 section .bss
 	pollfd resb 8

@@ -72,7 +72,7 @@ this contains the segment descriptor of the .text segment
 check this link for more informations about ELF format :
 https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 */
-const unsigned char program_header[] = {
+const unsigned char program_header[32] = {
 	0x01, 0x00, 0x00, 0x00,	// this is a loadable segment
 	0x54, 0x00, 0x00, 0x00,	// offset of the .text segment in the file
 
